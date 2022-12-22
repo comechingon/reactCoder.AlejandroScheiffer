@@ -1,30 +1,21 @@
-import "./Navbar.css" 
+import "./Navbar.css";
+import CartWidget from "../CartWidget/CartWidget";
 
 const Navbar = () => {
-    return (
+  return (
+    <nav className="Navbar">
+      <h1>Boom Piscinas</h1>
 
-        <nav className="Navbar"  >
-            <h1>Boom Piscinas</h1>
+      <div className="Button" style={{ backgroundColor: `lightblue` }}>
+        <button className="Button">Piscinas</button>
+        <button className="Button">Accesorios</button>
+        <button className="Button">Reposeras</button>
 
-            <div style={{ backgroundColor: `lightblue`}}>
-                <button>Piscinas</button>
-                <button>Accesorios</button>
-                <button>Reposeras</button>
+        
+        <CartWidget />
+      </div>
+    </nav>
+  );
+};
 
-
-            </div>
-
-
-        </nav>
-
-
-
-
-
-
-    )
-
-
-}
-
-export default Navbar
+export default Navbar;

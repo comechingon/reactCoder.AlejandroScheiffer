@@ -1,4 +1,26 @@
 .Navbar {
 background-color: aquamarine;
+margin: 10px;
 
+
+}
+
+.Contador {
+    margin: 5px;
+    background-color: antiquewhite;
+    padding: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    
+    
+}
+
+.Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(56, 160, 185);
+    border-radius: 5px;
 }
