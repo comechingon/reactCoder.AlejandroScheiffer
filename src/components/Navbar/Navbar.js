@@ -1,10 +1,12 @@
+import "./Navbar.css" 
+
 const Navbar = () => {
     return (
 
-        <nav>
+        <nav className="Navbar"  >
             <h1>Boom Piscinas</h1>
 
-            <div>
+            <div style={{ backgroundColor: `lightblue`}}>
                 <button>Piscinas</button>
                 <button>Accesorios</button>
                 <button>Reposeras</button>
