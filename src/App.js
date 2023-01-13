@@ -11,7 +11,7 @@ function App() {
         
         
         <ItemListContainer greeting="¡Bienvenido!"/>
-        <ItemCount />
+        <ItemCount onAdd={(count) => console.log( "se agregaron"+ count)} stock={10}/>
     </div>
     
   );
